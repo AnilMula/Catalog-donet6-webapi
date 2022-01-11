@@ -1,0 +1,3 @@
+to add a driver .... dotnet add package MongoDB.Driver
+to create and run a docker container .... docker run -d --rm --name mongo -p 27017:27017 -v mongodbdata:/data/db mongo
+to run container the next time .... docker run -it -d mongo
